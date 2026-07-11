@@ -23,9 +23,9 @@ def final (subjects,diff_1,diff_2,diff_3) :
           #      if count==random.randint(1,3) :
           #           break
           i=random.choice(days)
-          sub=best_schedule[i].keys()
+          sub=new_table[i].keys()
           a=random.choice(list(sub))
-          best_schedule[i][a]+=random.randint(-2,2)
+          new_table[i][a]+=random.randint(-2,2)
       elif gamble==2 :
            i=random.choice(days)
            old=random.choice(list(new_table[i].keys()))
