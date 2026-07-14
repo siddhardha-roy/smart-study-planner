@@ -116,13 +116,13 @@ def final (subjects,diff_1,diff_2,diff_3) :
           elif 4 <= sum(b) <= 6:
              score += 20
           else:
-             score -= 25
+             score -= 10
           
-          result=all(value>3 for value in work[i].values())
+          result=all(value>2 for value in work[i].values())
           
 
           if result :
-               score-=20
+               score-=25
      
      return score
                     
