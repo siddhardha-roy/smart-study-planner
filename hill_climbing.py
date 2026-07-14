@@ -116,7 +116,7 @@ def final (subjects,diff_1,diff_2,diff_3) :
           elif 4 <= sum(b) <= 6:
              score += 20
           else:
-             score -= 10
+             score -= 25
           
           result=all(value>3 for value in work[i].values())
           
